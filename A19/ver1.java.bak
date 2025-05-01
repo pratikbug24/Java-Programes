@@ -1,0 +1,21 @@
+class ver1 
+{
+	public static void main(String[] args) 
+	{
+		String name;
+		byte age;
+		long phno;
+		String adu; 
+		
+	    name = "Pratik Sadashiv Pawar";
+		age = 24;
+		phno = 7385615885l;
+		adu = "B.tech";
+		
+		
+		System.out.println("name; " + name);
+		System.out.println("Age; " + age);
+		System.out.println(phno);
+		
+	}
+}

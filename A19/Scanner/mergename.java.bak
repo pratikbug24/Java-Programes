@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class MergeName 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter your frist name");
+		
+		String fn = sc.next();
+		
+		System.out.println("Enter your last name");
+		
+		String ln = sc.next();
+		
+		String Fulln = fn + ln ;
+		
+		System.out.println("Your full name is" + fn +""+ ln);
+	}
+}

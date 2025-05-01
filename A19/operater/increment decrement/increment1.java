@@ -1,0 +1,17 @@
+class increment1 
+{
+	public static void main(String[] args) 
+	{
+		int poc = 100;
+		
+		System.out.println(++poc);
+		System.out.println(poc++);
+		System.out.println(++poc);
+		System.out.println(poc++ + ++poc);
+		System.out.println(poc);
+		System.out.println(++poc + poc++);
+		System.out.println(poc);
+		
+		System.out.println("Thank you");
+	}
+}

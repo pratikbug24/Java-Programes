@@ -1,0 +1,14 @@
+class Cha1 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		char  ch = sc.next()charAt(0);
+		
+		
+      System.out.println("Enter a charecter");
+	  
+	  (ch>='0' && ch <='9') ? (ch + "is digit") ; (ch>=65 && ch<=90 || ch>='97' && ch<='122')? (ch>=65 && ):(ch + is a characrter)  
+	}
+}

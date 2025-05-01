@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class If1 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter bill amount: ");
+		
+		double amt = sc.nextDouble();
+		
+		System.out.println("Having a cupon code ?");
+		
+		String ip = sc.next();
+		if(ip)
+		{
+			amt-=100;
+			System.out.println("Rs 100 discound");
+		}
+			
+		System.out.println("Your amount is "+ amt);
+		
+	}
+}

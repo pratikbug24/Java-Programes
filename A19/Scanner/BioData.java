@@ -1,0 +1,34 @@
+import java.util.Scanner; 
+
+class BioData {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in); 
+
+        System.out.println("Enter Your Name"); 
+        String name = sc.next(); 
+
+        System.out.println("Enter Your last name"); 
+        String age = sc.next(); 
+        sc.nextLine(); // consume the leftover newline
+
+        System.out.println("Enter Your Phone Number:"); 
+        long phno = sc.nextLong(); 
+        sc.nextLine(); // consume the leftover newline
+
+        System.out.println("Enter your native place"); 
+        String place = sc.nextLine(); 
+
+        System.out.println("Enter your highest qualification"); 
+        String qua = sc.nextLine(); 
+
+        System.out.println("Enter your Hobby"); 
+        String hob = sc.nextLine(); 
+
+        System.out.println("My name is " + name);
+        System.out.println("I am " + age + " years old");
+        System.out.println("My phone number is: " + phno);
+        System.out.println("I am from " + place);
+        System.out.println("I have completed: " + qua);
+        System.out.println("My Hobby is: " + hob);
+    } 
+}

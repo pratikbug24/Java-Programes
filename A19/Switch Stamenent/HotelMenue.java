@@ -1,0 +1,141 @@
+import java.util.Scanner;
+class HotelMenue 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("_________________WELCOME HOTEL TAJ_____________________");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		System.out.println("1.veg");
+		System.out.println("2.Non_veg");
+			
+		int ip = sc.nextInt();
+		
+		switch (ip)
+		{
+		case 1:
+			{
+			System.out.println("________________VEG MENUE______________");
+			System.out.println("1.Poha                  ------> 20 ");
+			System.out.println("2.Aloo Pratha           ------> 20 ");
+			System.out.println("3.Idli & Sambar         ------> 15 ");
+			System.out.println("4.Pav Bhaji             ------> 25");
+			System.out.println("4.Vegetable Sandwich    ------> 30");
+			
+			int op = sc.nextInt();
+			
+			switch (op)
+		{
+		case 1:
+		case 2:
+		{
+			System.out.println("Enter the number of plates");
+			int no = sc.nextInt();
+			int total = 20 * no;
+			System.out.println("Total bill is: "+ total);
+			break;
+		}
+		
+		case 3:
+			{
+			System.out.println("Enter the number of plates");
+			int no = sc.nextInt();
+			int total = 15 * no;
+			System.out.println("Total bill is: "+ total);
+			
+			break;
+			}
+		case 4:
+			{
+			System.out.println("Enter the number of plates");
+			int no = sc.nextInt();
+			int total = 25 * no;
+			System.out.println("Total bill is: "+ total);
+			
+		    break;
+			}
+		case 5:
+			{
+			System.out.println("Enter the number of plates");
+			int no = sc.nextInt();
+			int total = 30 * no;
+			System.out.println("Total bill is: "+ total);
+			
+			break;
+			
+			}
+		default: 
+		{
+		System.out.println("Enter a number between 1 to 5");
+		
+		break;
+		}
+		
+		}
+		break;
+	}
+		
+		
+	
+		case 2:
+		{
+		System.out.println("___________________NON-VEG MENUE___________");
+		System.out.println("1.Anda Bhurji.           -----> 30");
+		System.out.println("2.Masala Omelette        -----> 25");
+		System.out.println("3.Chicken Keema Pav      -----> 45");
+		System.out.println("4.Fish Cutlets           -----> 60");
+		
+		int op = sc.nextInt();
+		
+		
+		switch (op)
+		{
+		case 1:
+		{
+			System.out.println("Enter the number of plates");
+			int no = sc.nextInt();
+			int total = 30 * no;
+			System.out.println("Total bill is: "+ total);
+			break;
+		}
+		case 2:
+		{
+			System.out.println("Enter the number of plates");
+			int no = sc.nextInt();
+			int total = 25 * no;
+			System.out.println("Total bill is: "+ total);
+			break;
+		}
+		case 3:
+		{
+			System.out.println("Enter the number of plates");
+			int no = sc.nextInt();
+			int total = 45 * no;
+			System.out.println("Total bill is: "+ total);
+			break;
+		}
+		case 4:
+		{
+			System.out.println("Enter the number of plates");
+			int no = sc.nextInt();
+			int total = 60 * no;
+			System.out.println("Total bill is: "+ total);
+			break;
+		}
+		default:
+		{
+			System.out.println("Enter number between 1 to 4");  
+			break;
+		}
+		
+		}
+		
+		}
+	}
+	
+  }
+}
+
